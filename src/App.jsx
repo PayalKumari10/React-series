@@ -1,12 +1,34 @@
+// import { Fragment } from "react";
+
 export const App = () => {
+  
+  // ********************   1    ***************
+  //  return ( [    <NetflixSeries key="1"/>, <NetflixSeries key="2"/>
+  //  ])
+
+    // ********************   2    ***************
+
+  // return (
+  //   <Fragment>
+  //   <NetflixSeries/>
+  //   <NetflixSeries/>
+  //   <NetflixSeries/>
+  //   <NetflixSeries/>
+  //   <NetflixSeries/>
+  //   </Fragment>
+  // );
+
+     // ********************   3    ***************
+
+
   return (
-    <div>
+    <>
     <NetflixSeries/>
     <NetflixSeries/>
     <NetflixSeries/>
     <NetflixSeries/>
     <NetflixSeries/>
-    </div>
+    </>
   );
 };
 
