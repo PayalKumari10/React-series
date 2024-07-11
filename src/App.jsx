@@ -3,6 +3,9 @@ export const App = () => {
     <div>
     <NetflixSeries/>
     <NetflixSeries/>
+    <NetflixSeries/>
+    <NetflixSeries/>
+    <NetflixSeries/>
     </div>
   );
 };
