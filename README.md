@@ -11,11 +11,17 @@ Currently, two official plugins are available:
 
 **Installing Bun Package Manager**
 -bun -v 
+
 -npm install -g bun
+
 -bun dev
--bun i react@ac  //new react19
+
+-bun i react@ac  //new react-19
+
 -bun i react-dom@rc
+
 -bun dev   //or 
+
 -bun run dev
 
 **Code**

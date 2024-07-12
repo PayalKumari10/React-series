@@ -50,7 +50,7 @@ const NetflixSeries = () => {
         <img src="pic1.jpg" alt="pic.jpg" width="30%" height="30%"/>
       </div>
       <h2>Name: {name} </h2>
-      <h3>Rating: {5/3.2}</h3>
+      <h3>Rating: {rating}</h3>
       <p>Summary: {summary}</p>
       <p>Genre: {returnGenre()}</p>
     </div>
