@@ -1,5 +1,7 @@
 export const Practices = () =>{
-    const students = [];
+    // const students = [];     or 
+    const students = [5,9];
+
     console.log(Boolean(students.length));
     console.log(students.length)
     return (
