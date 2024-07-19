@@ -57,11 +57,13 @@ function Profile() {
     );
   }
   
+
   export default Profile;
   
   // eslint-disable-next-line react/prop-types
   function ProfileCard({ name, age, greeting, children }) {
     //   const { name, age, greeting, children } = props;
+    
     return (
       <>
         <h2>Name: {name}</h2>
