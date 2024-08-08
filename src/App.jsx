@@ -3,6 +3,9 @@
 // import "./components/Netflix.module.css"
 // import { EventProps } from "./components/EventProps";
 // import { EventHandling } from "./components/EventHandling";
+
+import { DerivedState } from "./components/DerivedState";
+
 import { State } from "./components/hooks/State";
 
 
@@ -20,6 +23,7 @@ export const App = () => {
       {/* <EventPropagation/> */}
       <State/>
       <Sibling/>
+      <DerivedState/>
     </section>
   );
 };
